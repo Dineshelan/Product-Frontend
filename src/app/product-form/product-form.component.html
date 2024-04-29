@@ -1,0 +1,17 @@
+<!-- product-form.component.html -->
+<form>
+    <label>ID</label>
+    <input type="text" name="id" [(ngModel)]="p.id">
+    <br><br>
+    <label>Item</label>
+    <input type="text" name="item" [(ngModel)]="p.item">
+    <br><br>
+    <label>Name</label>
+    <input type="text" name="name" [(ngModel)]="p.name">
+    <br><br>
+    <label>Category</label>
+    <input type="text" name="category" [(ngModel)]="p.category">
+    <br><br>
+    <button type="button" (click)="post()">Save</button>
+  </form>
+  
